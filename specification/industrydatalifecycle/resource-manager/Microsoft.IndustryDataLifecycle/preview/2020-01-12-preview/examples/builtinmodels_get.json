@@ -1,0 +1,21 @@
+{
+	"parameters": {
+		"api-version": "2020-01-12-preview",
+		"subscriptionId": "00000000-0000-0000-0000-000000000000",
+		"builtInModelName": "retail"
+	},
+	"responses": {
+		"200": {
+			"body": {
+				"id": "/subscriptions/00000000-0000-0000-0000-000000000000/providers/Microsoft.IndustryDataLifecycle/builtInModels/retail",
+				"name": "retail",
+				"type": "Microsoft.IndustryDataLifecycle/builtInModels",
+				"properties": {
+					"description": "Retail ADRM builtInModel.",
+					"rootFolder": "/data/aberdeen",
+					"rootManifestLocation": "core/adrm-ba-root.manifest.cdm.json"
+				}
+			}
+		}
+	}
+}

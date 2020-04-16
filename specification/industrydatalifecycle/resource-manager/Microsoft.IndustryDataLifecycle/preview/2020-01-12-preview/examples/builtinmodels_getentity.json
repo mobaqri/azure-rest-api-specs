@@ -1,0 +1,36 @@
+{
+	"parameters": {
+		"api-version": "2020-01-12-preview",
+		"subscriptionId": "00000000-0000-0000-0000-000000000000",
+		"builtInModelName": "retail",
+		"entityName": "entity_path_from_root_corpus"
+	},
+	"responses": {
+		"200": {
+			"body": {					
+				"id": "/subscriptions/00000000-0000-0000-0000-000000000000/providers/Microsoft.IndustryDataLifecycle/builtInModels/retail",
+				"name": "retail",
+				"type": "Microsoft.IndustryDataLifecycle/builtInModels",
+				"properties": {
+					"description": "Entity description.",
+					"entityName": "Brand",
+					"path": "entity_file_path_from_root_corpus",
+					"attributes": [{
+						"description": "Brand name",
+						"name": "name",
+						"attributeReference": "",
+						"dataType": "string",
+						"dataTypeLength": 1000,
+						"minValue": null,
+						"maxValue": null,
+						"isNullable": "false"
+					}],
+					"businessArea": "Sales",
+					"industries": ["Fashion"],
+					"primaryKey": [],
+					"relationships": []
+				}
+			}
+		}
+	}
+}

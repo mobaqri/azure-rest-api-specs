@@ -1,0 +1,28 @@
+{
+	"parameters": {
+		"api-version": "2020-01-12-preview",
+		"subscriptionId": "00000000-0000-0000-0000-000000000000",
+		"builtInModelName": "retail"
+	},
+	"responses": {
+		"200": {
+			"body": {
+				"value": [{
+					"id": "/subscriptions/00000000-0000-0000-0000-000000000000/providers/Microsoft.IndustryDataLifecycle/builtInModels/retail/entities/url_encoded_path",
+					"name": "retail",
+					"type": "Microsoft.IndustryDataLifecycle/builtInModels/entities",
+					"properties": {
+						"description": "Entity description.",
+						"entityName": "Team",
+						"path": "applicationCommon/Team.cdm.json/Team",
+						"businessArea": "Sales",
+						"industries": ["Fashion"],
+						"primaryKey": [],
+						"relationships": []
+					}
+				}],
+				"nextLink": "https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/providers/Microsoft.IndustryDataLifecycle/builtInModels/retail/entities?$skiptoken={token}"
+			}
+		}
+	}
+}
